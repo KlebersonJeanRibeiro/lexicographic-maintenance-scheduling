@@ -12,9 +12,7 @@ The proposed heuristic supports preventive maintenance scheduling in industrial 
 
 - Asset criticality based on ABC classification;
 - Maintenance urgency through dynamic deadlines;
-- Workforce availability by sector or specialty;
-- Strict feasibility under capacity constraints;
-- Diagnostic indicators for sectoral utilization and bottlenecks.
+- Workforce availability by sector or specialty.
 
 The heuristic was implemented in Python as part of the **Kairos Maintenance Scheduler (KMS)**.
 
@@ -52,6 +50,12 @@ An anonymized version of the real industrial dataset used in the case study is a
 
 The original raw industrial dataset is not publicly available due to confidentiality restrictions.
 
+## Software Availability
+
+The scheduling algorithm is formally described in the associated article through its mathematical formulation and pseudocode. The complete Kairos Maintenance Scheduler (KMS) software is not publicly available because it is registered as a computer program with the Brazilian National Institute of Industrial Property (INPI) and may be subject to future licensing or commercialization.
+
+The datasets provided in this repository allow the reproduction and verification of the scenarios analyzed in the article.
+
 ## Citation
 
 If you use this repository, please cite the associated article:
@@ -64,3 +68,4 @@ If you use this repository, please cite the associated article:
   year = {2026},
   note = {Manuscript submitted for publication}
 }
+```
