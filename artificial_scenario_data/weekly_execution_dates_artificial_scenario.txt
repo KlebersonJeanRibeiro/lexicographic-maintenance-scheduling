@@ -1,0 +1,24 @@
+Dates set as the current date (hoje) in each execution:
+
+    ######################################################################
+    #hoje = pd.to_datetime("14/03/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("21/03/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("28/03/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("04/04/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("11/04/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("18/04/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("25/04/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("02/05/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("09/05/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("16/05/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("23/05/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("30/05/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("06/06/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("13/06/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("20/06/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("27/06/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("04/07/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("11/07/2025", dayfirst=True).date()
+    #hoje = pd.to_datetime("18/07/2025", dayfirst=True).date()
+    hoje = pd.to_datetime("25/07/2025", dayfirst=True).date()
+    ######################################################################
