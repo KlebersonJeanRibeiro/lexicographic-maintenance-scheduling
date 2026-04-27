@@ -18,6 +18,32 @@ The proposed heuristic supports preventive maintenance scheduling in industrial 
 
 The heuristic was implemented in Python as part of the **Kairos Maintenance Scheduler (KMS)**.
 
+## Note on Spreadsheet Language
+
+The input spreadsheets retain their original Portuguese column names because the Kairos Maintenance Scheduler (KMS) was implemented to process this standardized structure. For clarity, the main variables and fields are described below in English.
+
+| Spreadsheet column | English meaning |
+|---|---|
+| Operação | Operation |
+| Periodicidade | Periodicity |
+| Data da última manutenção | Last maintenance date |
+| Duração normal | Normal duration |
+| Código ABC | ABC criticality code |
+| Setor_01 | Sector 01 |
+| Setor_02 | Sector 02 |
+| Setor_03 | Sector 03 |
+| Setor_04 | Sector 04 |
+| Setor_05 | Sector 05 |
+| Setor_06 | Sector 06 |
+| Setor_07 | Sector 07 |
+| Setor_08 | Sector 08 |
+| Tolerância | Tolerance |
+| deadline | Deadline |
+| Numeração | Numbering |
+| Dia de execução do plano | Plan execution day |
+
+These column names should not be changed, as they are required for compatibility with the KMS implementation.
+
 ## Data Availability
 
 The artificial dataset used for validation is made available in this repository for reproducibility purposes.
