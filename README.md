@@ -64,7 +64,7 @@ If you use this repository, please cite the associated article:
 @article{RibeiroObal2026,
   title = {A Lexicographic Heuristic for Preventive Maintenance Scheduling under Constraints},
   author = {Ribeiro, Kleberson Jean and Obal, Thalita Monteiro},
-  journal = {Information Sciences},
+  journal = {},
   year = {2026},
   note = {Manuscript submitted for publication}
 }
